@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>AutoAlias</title>
+		<link rel="stylesheet" href="popup.css">
+	</head>
+	<body>
+		<main class="panel">
+			<h2>AutoAlias</h2>
+
+			<label class="label" for="alias-name">Alias name</label>
+			<input id="alias-name" class="input" type="text" value="currentdomain.com">
+
+			<!-- future feature -->
+
+			<!-- <select id="alias-domain" class="input"> 
+				<option value="alias.example">alias.example</option> 
+				<option value="custom">custom...</option> 
+			</select> -->
+
+			<label class="label" for="alias-domain">Alias domain</label>
+			<input id="alias-domain" class="input" type="text" placeholder="custom-domain.tld">
+
+			<label class="label" for="result">Generated alias</label>
+			<div class="row">
+				<input id="result" class="input" type="text" readonly>
+				<button id="copy" class="button" type="button">Copy</button>
+			</div>
+		</main>
+
+		<script src="popup.js"></script>
+	</body>
+</html>
