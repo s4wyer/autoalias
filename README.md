@@ -5,7 +5,7 @@ A browser extension to generate email aliases using the current domain.
 ## Installation
 
 ### CRX (recomended)
-1. Go to the [releases](https://github.com/s4wyer/autoalias/releases/latest) and download the latest `autoalias.crx`.
+1. Go to the [releases](https://github.com/s4wyer/autoalias/releases/latest) and download the latest `autoalias.crx` by right clicking and selecting "Save link as...".
 2. Open go to `chrome://extensions`.
 3. Enable "Developer mode".
 4. Drag and drop the `autoalias.crx` file anywhere on the page.
