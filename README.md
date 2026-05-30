@@ -20,4 +20,4 @@ A browser extension to generate email aliases using the current domain.
 ```bash
 npm install
 npm run build
-``
+```
