@@ -2,6 +2,8 @@
 
 A browser extension to generate email aliases using the current domain.
 
+![](https://github.com/s4wyer/autoalias/raw/main/assets/screenshot.png)
+
 ## Installation
 
 ### CRX (recomended)
