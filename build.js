@@ -35,6 +35,9 @@ const assetsToCopy = [
   "popup.js",
   "background.js",
   "toggleIcon.js",
+  "utils.js",
+  "offscreen.html",
+  "offscreen.js",
   "icons",
 ];
 
