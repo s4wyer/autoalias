@@ -20,7 +20,7 @@ A browser extension to generate email aliases using the current domain.
 
 ### Enabling Keyboard Shortcuts
 
-1. Go to (chrome://extensions/shortcuts)[chrome://extensions/shortcuts]
+1. Go to [chrome://extensions/shortcuts](chrome://extensions/shortcuts)
 2. Bind the "Copy Generated Alias" function to something unused, like <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>
 
 ### Building & Packaging from Source
