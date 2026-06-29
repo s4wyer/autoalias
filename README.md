@@ -18,6 +18,11 @@ A browser extension to generate email aliases using the current domain.
 3. Enable "Developer mode" in the top right.
 4. Click "Load unpacked" and select the `dist` folder (after running the build).
 
+### Enabling Keyboard Shortcuts
+
+1. Go to (chrome://extensions/shortcuts)[chrome://extensions/shortcuts]
+2. Bind the "Copy Generated Alias" function to something unused, like <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>
+
 ### Building & Packaging from Source
 ```bash
 npm install

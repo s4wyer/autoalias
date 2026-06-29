@@ -8,8 +8,6 @@ const updateIcon = (e) => {
   }
 };
 
-// Initial check
 updateIcon(mql);
 
-// Listen for changes
 mql.addEventListener("change", updateIcon);

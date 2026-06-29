@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AutoAlias",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate email aliases using the current domain.",
   "action": {
     "default_title": "AutoAlias",
@@ -16,7 +16,16 @@
       "js": ["toggleIcon.js"]
     }
   ],
-  "permissions": ["clipboardWrite", "activeTab", "storage"],
+  "permissions": ["clipboardWrite", "activeTab", "storage", "offscreen", "notifications"],
+  "commands": {
+    "copy-alias": {
+      "suggested_key": {
+        "default": "Alt+Shift+A",
+        "mac": "Alt+Shift+A"
+      },
+      "description": "Copy generated alias"
+    }
+  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
